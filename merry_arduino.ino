@@ -1,4 +1,3 @@
-
  //Techno light circuit.
  int tree = 2;
 
@@ -9,7 +8,8 @@ int timing = 1;
 //Each "pinX" is actually one of the eight notes
 //of "We wish you a merry Xmas.
 
-int pin2=house,pin3=tree,pin4=pvc,pin5=tree,pin6=pvc,pin7=tree,pin8=house;
+// all pins for tree lights.
+int pin2=tree,pin3=tree,pin4=tree,pin5=tree,pin6=tree,pin7=tree,pin8=tree;
 
 
 void setup() {                
