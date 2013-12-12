@@ -83,7 +83,7 @@ int scriptStep = 0;
 int scriptStepInc = 1;
 
 void wire_test() {
-  // All LEDs are on to test your soldering skills
+  // assuming LED's are soldered on, (in strip lighting, they won't be.)
   for (byte ii=0; ii<LEDS; ii++) {
     pinMode(ledPins[ii], OUTPUT);
     analogWrite(ledPins[ii], MAX_LEVEL);
