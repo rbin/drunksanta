@@ -1,5 +1,5 @@
 
- //These are my three light circuits.
+ //Techno light circuit.
  int tree = 2;
 
 //Pace of the song as normal
